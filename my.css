@@ -1,0 +1,50 @@
+/*
+Dark blue rgb(33, 98, 204)
+Light blue rgb(149, 186, 245)
+
+Dark Orange rgb(222, 167, 64)
+Light orange rgb(250, 222, 170)
+
+Primary Font : Lato
+Secondary Font : Robatto
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+body{
+    background: rgb(180, 210, 275);
+}
+img{
+    width: 30%;
+    height: 300px;
+}
+
+*{
+font-family: 'Lato', sans-serif;
+}
+
+
+.sub{
+font-family: 'Roboto', sans-serif;
+}
+
+img{
+    margin: 10px;
+    border: 2px solid rgb(33, 98, 204);
+}
+fieldset{
+    border: 2px solid rgb(33, 98, 204);
+}
+a:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: blue;
+
+}
+
+.signin{
+    animation-direction: alternate;
+    animation-delay: 500ms;
+    animation-duration:3s;
+}
+
